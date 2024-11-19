@@ -1,0 +1,1151 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Operation Types · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="operation.html" />
+    
+    
+    <link rel="prev" href="../locations/span.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../Introduction.html">
+            
+                <a href="../../Introduction.html">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Walkthroughs</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../walkthroughs/01-installing-slate.html">
+            
+                <a href="../../walkthroughs/01-installing-slate.html">
+            
+                    
+                    Installing Slate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../walkthroughs/02-adding-event-handlers.html">
+            
+                <a href="../../walkthroughs/02-adding-event-handlers.html">
+            
+                    
+                    Adding Event Handlers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../walkthroughs/03-defining-custom-elements.html">
+            
+                <a href="../../walkthroughs/03-defining-custom-elements.html">
+            
+                    
+                    Defining Custom Elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../walkthroughs/04-applying-custom-formatting.html">
+            
+                <a href="../../walkthroughs/04-applying-custom-formatting.html">
+            
+                    
+                    Applying Custom Formatting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../walkthroughs/05-executing-commands.html">
+            
+                <a href="../../walkthroughs/05-executing-commands.html">
+            
+                    
+                    Executing Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../../walkthroughs/06-saving-to-a-database.html">
+            
+                <a href="../../walkthroughs/06-saving-to-a-database.html">
+            
+                    
+                    Saving to a Database
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../../walkthroughs/xx-using-the-bundled-source.html">
+            
+                <a href="../../walkthroughs/xx-using-the-bundled-source.html">
+            
+                    
+                    Using the Bundled Source
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Concepts</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../concepts/01-interfaces.html">
+            
+                <a href="../../concepts/01-interfaces.html">
+            
+                    
+                    Interfaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../concepts/02-nodes.html">
+            
+                <a href="../../concepts/02-nodes.html">
+            
+                    
+                    Nodes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../concepts/03-locations.html">
+            
+                <a href="../../concepts/03-locations.html">
+            
+                    
+                    Locations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../../concepts/04-transforms.html">
+            
+                <a href="../../concepts/04-transforms.html">
+            
+                    
+                    Transforms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../../concepts/05-operations.html">
+            
+                <a href="../../concepts/05-operations.html">
+            
+                    
+                    Operations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../../concepts/06-commands.html">
+            
+                <a href="../../concepts/06-commands.html">
+            
+                    
+                    Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../../concepts/07-editor.html">
+            
+                <a href="../../concepts/07-editor.html">
+            
+                    
+                    Editor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../../concepts/08-plugins.html">
+            
+                <a href="../../concepts/08-plugins.html">
+            
+                    
+                    Plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../../concepts/09-rendering.html">
+            
+                <a href="../../concepts/09-rendering.html">
+            
+                    
+                    Rendering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="../../concepts/10-serializing.html">
+            
+                <a href="../../concepts/10-serializing.html">
+            
+                    
+                    Serializing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="../../concepts/11-normalizing.html">
+            
+                <a href="../../concepts/11-normalizing.html">
+            
+                    
+                    Normalizing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="../../concepts/12-typescript.html">
+            
+                <a href="../../concepts/12-typescript.html">
+            
+                    
+                    TypeScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="../../concepts/xx-migrating.html">
+            
+                <a href="../../concepts/xx-migrating.html">
+            
+                    
+                    Migrating
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">API</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../transforms.html">
+            
+                <a href="../transforms.html">
+            
+                    
+                    Transforms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../nodes/">
+            
+                <a href="../nodes/">
+            
+                    
+                    Node Types
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../nodes/editor.html">
+            
+                <a href="../nodes/editor.html">
+            
+                    
+                    Editor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../nodes/element.html">
+            
+                <a href="../nodes/element.html">
+            
+                    
+                    Element
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../nodes/node.html">
+            
+                <a href="../nodes/node.html">
+            
+                    
+                    Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="../nodes/node-entry.html">
+            
+                <a href="../nodes/node-entry.html">
+            
+                    
+                    NodeEntry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.5" data-path="../nodes/text.html">
+            
+                <a href="../nodes/text.html">
+            
+                    
+                    Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../locations/">
+            
+                <a href="../locations/">
+            
+                    
+                    Location Types
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.3.1" data-path="../locations/location.html">
+            
+                <a href="../locations/location.html">
+            
+                    
+                    Location
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.2" data-path="../locations/path.html">
+            
+                <a href="../locations/path.html">
+            
+                    
+                    Path
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.3" data-path="../locations/path-ref.html">
+            
+                <a href="../locations/path-ref.html">
+            
+                    
+                    PathRef
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.4" data-path="../locations/point.html">
+            
+                <a href="../locations/point.html">
+            
+                    
+                    Point
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.5" data-path="../locations/point-entry.html">
+            
+                <a href="../locations/point-entry.html">
+            
+                    
+                    PointEntry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.6" data-path="../locations/point-ref.html">
+            
+                <a href="../locations/point-ref.html">
+            
+                    
+                    PointRef
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.7" data-path="../locations/range.html">
+            
+                <a href="../locations/range.html">
+            
+                    
+                    Range
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.8" data-path="../locations/range-ref.html">
+            
+                <a href="../locations/range-ref.html">
+            
+                    
+                    RangeRef
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.9" data-path="../locations/span.html">
+            
+                <a href="../locations/span.html">
+            
+                    
+                    Span
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Operation Types
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.4.1" data-path="operation.html">
+            
+                <a href="operation.html">
+            
+                    
+                    Operation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../scrubber.html">
+            
+                <a href="../scrubber.html">
+            
+                    
+                    Scrubber
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Libraries</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../libraries/slate-react/">
+            
+                <a href="../../libraries/slate-react/">
+            
+                    
+                    Slate React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../../libraries/slate-react/with-react.html">
+            
+                <a href="../../libraries/slate-react/with-react.html">
+            
+                    
+                    withReact
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../../libraries/slate-react/react-editor.html">
+            
+                <a href="../../libraries/slate-react/react-editor.html">
+            
+                    
+                    ReactEditor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../../libraries/slate-react/hooks.html">
+            
+                <a href="../../libraries/slate-react/hooks.html">
+            
+                    
+                    Hooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../../libraries/slate-react/slate.html">
+            
+                <a href="../../libraries/slate-react/slate.html">
+            
+                    
+                    Slate Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="../../libraries/slate-react/editable.html">
+            
+                <a href="../../libraries/slate-react/editable.html">
+            
+                    
+                    Editable Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="../../libraries/slate-react/event-handling.html">
+            
+                <a href="../../libraries/slate-react/event-handling.html">
+            
+                    
+                    Event Handling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../libraries/slate-history/">
+            
+                <a href="../../libraries/slate-history/">
+            
+                    
+                    Slate History
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../../libraries/slate-history/with-history.html">
+            
+                <a href="../../libraries/slate-history/with-history.html">
+            
+                    
+                    withHistory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="../../libraries/slate-history/history-editor.html">
+            
+                <a href="../../libraries/slate-history/history-editor.html">
+            
+                    
+                    HistoryEditor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="../../libraries/slate-history/history.html">
+            
+                <a href="../../libraries/slate-history/history.html">
+            
+                    
+                    History
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../../libraries/slate-hyperscript.html">
+            
+                <a href="../../libraries/slate-hyperscript.html">
+            
+                    
+                    Slate Hyperscript
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">General</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../general/resources.html">
+            
+                <a href="../../general/resources.html">
+            
+                    
+                    Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../../general/contributing.html">
+            
+                <a href="../../general/contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../../general/changelog.html">
+            
+                <a href="../../general/changelog.html">
+            
+                    
+                    Changelog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../../general/faq.html">
+            
+                <a href="../../general/faq.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Operation Types</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="operation-types">Operation Types</h1>
+<p><code>Operation</code> objects define the low-level instructions that Slate editors use to apply changes to their internal state. Representing all changes as operations is what allows Slate editors to easily implement history, collaboration, and other features.</p>
+<ul>
+<li>Operation object<ul>
+<li><a href="operation.html">Operation</a></li>
+</ul>
+</li>
+<li>Operation subtypes<ul>
+<li><a href="./#node-operations">Node Operations</a></li>
+<li><a href="./#text-operations">Text Operations</a></li>
+<li><a href="./#selection-operation">Selection Operation</a></li>
+<li><a href="./#base-operation">Base Operation</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="node-operations">Node Operations</h3>
+<p>Node operations operate on <code>Node</code> objects.</p>
+<pre><code class="lang-typescript"><span class="hljs-comment">// insert a new `Node`</span>
+<span class="hljs-keyword">type</span> InsertNodeOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;insert_node&apos;</span>
+  path: Path
+  node: Node
+}
+
+<span class="hljs-comment">// merge two `Node` objects</span>
+<span class="hljs-keyword">type</span> MergeNodeOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;merge_node&apos;</span>
+  path: Path
+  position: <span class="hljs-built_in">number</span>
+  properties: Partial&lt;Node&gt;
+}
+
+<span class="hljs-comment">// move `Node` from one path to another</span>
+<span class="hljs-keyword">type</span> MoveNodeOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;move_node&apos;</span>
+  path: Path
+  newPath: Path
+}
+
+<span class="hljs-comment">// Remove a `Node`</span>
+<span class="hljs-keyword">type</span> RemoveNodeOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;remove_node&apos;</span>
+  path: Path
+  node: Node
+}
+
+<span class="hljs-comment">// Set properties of a `Node`</span>
+<span class="hljs-keyword">type</span> SetNodeOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;set_node&apos;</span>
+  path: Path
+  properties: Partial&lt;Node&gt;
+  newProperties: Partial&lt;Node&gt;
+}
+
+<span class="hljs-comment">// Split a node into two separate `Node` objects</span>
+<span class="hljs-keyword">type</span> SplitNodeOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;split_node&apos;</span>
+  path: Path
+  position: <span class="hljs-built_in">number</span>
+  properties: Partial&lt;Node&gt;
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">type</span> NodeOperation =
+  | InsertNodeOperation
+  | MergeNodeOperation
+  | MoveNodeOperation
+  | RemoveNodeOperation
+  | SetNodeOperation
+  | SplitNodeOperation
+</code></pre>
+<h3 id="text-operations">Text Operations</h3>
+<p>Text operations operate on <code>Text</code> objects only.</p>
+<p>Note: <code>Text</code> objects are <code>Node</code> objects so you can use <code>Node</code> operations on <code>Text</code> objects.</p>
+<pre><code class="lang-typescript"><span class="hljs-comment">// insert text into an existing `Text` node</span>
+<span class="hljs-keyword">type</span> InsertTextOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;insert_text&apos;</span>
+  path: Path
+  offset: <span class="hljs-built_in">number</span>
+  text: <span class="hljs-built_in">string</span>
+}
+
+<span class="hljs-comment">// remove text from an existing `Text` node</span>
+<span class="hljs-keyword">type</span> RemoveTextOperation = {
+  <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;remove_text&apos;</span>
+  path: Path
+  offset: <span class="hljs-built_in">number</span>
+  text: <span class="hljs-built_in">string</span>
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">type</span> TextOperation = InsertTextOperation | RemoveTextOperation
+</code></pre>
+<h3 id="selection-operation">Selection Operation</h3>
+<p>Operation to set or unset a selection <code>Range</code>.</p>
+<pre><code class="lang-typescript"><span class="hljs-keyword">type</span> SetSelectionOperation =
+  | {
+      <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;set_selection&apos;</span>
+      properties: <span class="hljs-literal">null</span>
+      newProperties: Range
+    }
+  | {
+      <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;set_selection&apos;</span>
+      properties: Partial&lt;Range&gt;
+      newProperties: Partial&lt;Range&gt;
+    }
+  | {
+      <span class="hljs-keyword">type</span>: <span class="hljs-string">&apos;set_selection&apos;</span>
+      properties: Range
+      newProperties: <span class="hljs-literal">null</span>
+    }
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">type</span> SelectionOperation = SetSelectionOperation
+</code></pre>
+<h3 id="base-operation">Base Operation</h3>
+<p>The combination of all operation types.</p>
+<pre><code class="lang-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">type</span> BaseOperation = NodeOperation | SelectionOperation | TextOperation
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../locations/span.html" class="navigation navigation-prev " aria-label="Previous page: Span">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="operation.html" class="navigation navigation-next " aria-label="Next page: Operation">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Operation Types","level":"4.4","depth":1,"next":{"title":"Operation","level":"4.4.1","depth":2,"path":"api/operations/operation.md","ref":"api/operations/operation.md","articles":[]},"previous":{"title":"Span","level":"4.3.9","depth":2,"path":"api/locations/span.md","ref":"api/locations/span.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"api/operations/README.md","mtime":"2024-11-19T14:27:12.822Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-11-19T14:59:50.459Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
